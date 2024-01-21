@@ -1,10 +1,10 @@
-# Frontend Mentor - $ProjectName solution
+# Frontend Mentor - Typemaster Pre-Launch Landing Page solution
 
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Havoc-Solutions/$project-name?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/Havoc-Solutions/$project-name)
-![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Feon-$project-name.netlify.app%2F)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Havoc-Solutions/typemaster-landing-page?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/Havoc-Solutions/typemaster-landing-page)
+![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Feon-typemaster-landing-page.netlify.app%2F)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
-This is a solution to [$ProjectName](). Frontend Mentor challenges help you
+This is a solution to [Typemaster Pre-Launch Landing Page](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X). Frontend Mentor challenges help you
 improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -23,7 +23,7 @@ improve your coding skills by building realistic projects.
 
 ### Links
 
-- [Check the Live Site](https://eon-$project-name.netlify.app/)
+- [Check the Live Site](https://eon-typemaster-landing-page.netlify.app/)
 - [My Solution on Frontend Mentor]()
 
 ### Screenshot
@@ -43,7 +43,7 @@ npm install && npm start
 The app will be available at http://127.0.0.1:3000/
 
 ```shell
-docker run -d -p 3000:3000 eonraider/$project-name
+docker run -d -p 3000:3000 eonraider/typemaster-landing-page
 ```
 
 ## My process
