@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "typemaster-landing-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "A pre-launch landing page for the Typemaster Keyboard",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -11,21 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Havoc-Solutions/Project.git"
+    "url": "git+https://github.com/Havoc-Solutions/typemaster-landing-page.git"
   },
   "author": "EONRaider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Havoc-Solutions/Project/issues"
+    "url": "https://github.com/Havoc-Solutions/typemaster-landing-page/issues"
   },
-  "homepage": "https://github.com/Havoc-Solutions/Project#readme",
+  "homepage": "https://github.com/Havoc-Solutions/typemaster-landing-page#readme",
   "devDependencies": {
-    "@tsconfig/strictest": "^2.0.2",
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
-    "eslint": "^8.56.0",
-    "nodemon": "^3.0.2",
-    "typescript": "^5.3.3"
+    "nodemon": "^3.0.2"
   },
   "dependencies": {
     "express": "^4.17.3"
