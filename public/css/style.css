@@ -1,372 +1,394 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul, ol, body, h1, h2, h3, h4, p,
 figure, blockquote, dl, dd,
 input, button {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    -moz-text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-    text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 ul, ol {
-    list-style: none;
+  list-style: none;
 }
 
 img, picture {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 input, button,
 textarea, select {
-    font: inherit;
+  font: inherit;
 }
 
 button {
-    border: none;
-    background-color: inherit;
+  border: none;
+  background-color: inherit;
 }
 
 @font-face {
-    font-family: Barlow;
-    src: url("../fonts/Barlow-Medium.ttf");
-    font-style: normal;
-    font-weight: 500;
+  font-family: Barlow;
+  src: url("../fonts/Barlow-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
 }
-
 @font-face {
-    font-family: Barlow;
-    src: url("../fonts/Barlow-Bold.ttf");
-    font-style: normal;
-    font-weight: 700;
+  font-family: Barlow;
+  src: url("../fonts/Barlow-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
 }
-
 @font-face {
-    font-family: Barlow;
-    src: url("../fonts/Barlow-Black.ttf");
-    font-style: normal;
-    font-weight: 900;
+  font-family: Barlow;
+  src: url("../fonts/Barlow-Black.ttf");
+  font-style: normal;
+  font-weight: 900;
 }
-
 :root {
-    font-family: Barlow, sans-serif;
+  font-family: Barlow, sans-serif;
 }
 
 body {
-    justify-content: center;
-    align-items: flex-start;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 main {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 header {
-    flex: 0 1 100%;
-    justify-content: space-between;
-    align-items: center;
+  flex: 0 1 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .flow > * + * {
-    margin-top: var(--flow-space, 1rem);
+  margin-top: var(--flow-space, 1rem);
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 .bg-primary {
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .bg-secondary {
-    background-color: #E8EFF2;
+  background-color: #E8EFF2;
 }
 
 .bg-highlight {
-    background-color: #F16718;
+  background-color: #F16718;
 }
 
 .clr-primary {
-    color: #162542;
+  color: #162542;
 }
 
 .clr-secondary {
-    color: #7B8BAD;
+  color: #7B8BAD;
 }
 
 .clr-highlight {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .fnt-medium {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .fnt-bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .fnt-black {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .header__logo {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .pre-order-button {
-    width: 175px;
-    height: 58px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
+  width: 175px;
+  height: 58px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
 }
 
 .features-main__title {
-    font-size: 56px;
-    line-height: 56px;
-    text-transform: uppercase;
+  font-size: 56px;
+  line-height: 56px;
+  text-transform: uppercase;
 }
 
 .features-main__text {
-    font-size: 18px;
-    line-height: 26px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
-.grid-image {
-    border-radius: 20px;
-    background-repeat: no-repeat;
+.feature-image {
+  border-radius: 20px;
+  background-repeat: no-repeat;
 }
 
 .features-aside__title {
-    font-size: 32px;
-    line-height: 36px;
-    text-transform: uppercase;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
 }
 
 .features-aside__text {
-    font-size: 16px;
-    line-height: 26px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .features-button-wrapper {
-    align-items: center;
+  align-items: center;
 }
 
 .features-main__release {
-    font-size: 16px;
-    line-height: 26px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .advantages {
-    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
 }
 
 .advantage {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .advantage__icon {
-    width: 65px;
-    height: 65px;
+  width: 65px;
+  height: 65px;
 }
 
 .advantage__title {
-    font-size: 24px;
-    line-height: 28px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .advantage__text {
-    font-size: 16px;
-    line-height: 26px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 footer {
-    text-align: center;
-    font-size: 16px;
-    line-height: 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 button:hover {
-    cursor: pointer;
-    transition: color, background-color 0.2s ease-in-out;
+  cursor: pointer;
+  transition: color, background-color 0.2s ease-in-out;
 }
 
 .header__button:hover {
-    background-color: #162542;
-    color: #FFFFFF;
+  background-color: #162542;
+  color: #FFFFFF;
 }
 
 .features__button:hover {
-    background-color: #FF9B62;
+  background-color: #FF9B62;
 }
 
 @media only screen and (width >= 1440px) {
-    main {
-        position: relative;
-        flex: 0 1 1440px;
-        padding: 55px 165px 39px;
-        overflow: clip;
-    }
-
-    .features {
-        margin-top: 83px;
-        grid-template: "main     main     kb-top   kb-top" 480px "kb-phone kb-glass kb-glass aside" 480px/255px 222px 223px 1fr;
-        gap: 30px;
-    }
-
-    .features-main {
-        grid-area: main;
-        width: 445px;
-        padding-top: 60px;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .features-text-wrapper {
-        --flow-space: 24px;
-    }
-
-    .features-button-wrapper {
-        gap: 40px;
-    }
-
-    .features__keyboard-top {
-        grid-area: kb-top;
-        background-image: url("../images/desktop/keyboard-top.png");
-        background-position: top right 0;
-    }
-
-    .features__keyboard-phone {
-        grid-area: kb-phone;
-        background-image: url("../images/desktop/keyboard-phone.png");
-    }
-
-    .features__keyboard-glass {
-        grid-area: kb-glass;
-        background-image: url("../images/desktop/keyboard-glass.png");
-    }
-
-    .features-aside {
-        grid-area: aside;
-        width: 256px;
-        padding-top: 112px;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-self: end;
-        gap: 27px;
-    }
-
-    .bg-pattern__1, .bg-pattern__2 {
-        position: absolute;
-        width: 255px;
-        height: 240px;
-        background-image: url("../images/pattern-square.svg");
-        background-repeat: no-repeat;
-    }
-
-    .bg-pattern__1 {
-        top: 196px;
-        right: -120px;
-    }
-
-    .bg-pattern__2 {
-        top: 950px;
-        left: -120px;
-    }
-
-    .advantages {
-        margin-top: 168px;
-        column-gap: 30px;
-    }
-
-    .advantage {
-        gap: 48px;
-    }
-
-    .advantage-inner-wrapper {
-        --flow-space: 24px;
-    }
-
-    footer {
-        margin-top: 128px;
-    }
+  main {
+    position: relative;
+    flex: 0 1 1440px;
+    padding: 55px 165px 39px;
+    overflow: clip;
+  }
+  .features {
+    margin-top: 83px;
+    grid-template: "main     main     kb-top   kb-top" 480px "kb-phone kb-glass kb-glass aside" 480px/255px 222px 223px 1fr;
+    gap: 30px;
+  }
+  .features-main {
+    grid-area: main;
+    width: 445px;
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .features-text-wrapper {
+    --flow-space: 24px;
+  }
+  .features-button-wrapper {
+    gap: 40px;
+  }
+  .features__keyboard-top {
+    grid-area: kb-top;
+    background-image: url("../images/desktop/keyboard-top.png");
+    background-position: top right 0;
+  }
+  .features__keyboard-phone {
+    grid-area: kb-phone;
+    background-image: url("../images/desktop/keyboard-phone.png");
+  }
+  .features__keyboard-glass {
+    grid-area: kb-glass;
+    background-image: url("../images/desktop/keyboard-glass.png");
+  }
+  .features-aside {
+    grid-area: aside;
+    width: 256px;
+    padding-top: 112px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-self: end;
+    gap: 27px;
+  }
+  .bg-pattern__1, .bg-pattern__2 {
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    background-image: url("../images/pattern-square.svg");
+    background-repeat: no-repeat;
+  }
+  .bg-pattern__1 {
+    top: 196px;
+    right: -120px;
+  }
+  .bg-pattern__2 {
+    top: 950px;
+    left: -120px;
+  }
+  .advantages {
+    margin-top: 168px;
+    column-gap: 30px;
+  }
+  .advantage {
+    gap: 48px;
+  }
+  .advantage-inner-wrapper {
+    --flow-space: 24px;
+  }
+  footer {
+    margin-top: 128px;
+  }
 }
-
 @media only screen and (768px <= width < 1440px) {
-    main {
-        flex: 0 1 768px;
-        padding: 40px 40px 43px 39px;
-    }
-
-    .features {
-        margin-top: 62px;
-    }
-
-    .advantages {
-        margin: 142px 58px 0 0;
-        column-gap: 69px;
-        row-gap: 72px;
-    }
-
-    .advantage {
-        gap: 40px;
-    }
-
-    footer {
-        margin-top: 142px;
-    }
+  main {
+    flex: 0 1 768px;
+    padding-block: 40px 43px;
+  }
+  header, .advantages {
+    padding-inline: 40px;
+  }
+  .features {
+    margin-top: 62px;
+    padding-left: 39px;
+    grid-template: "main     main     kb-top" 425px "kb-phone kb-glass kb-glass" 320px "aside    aside    aside" 108px/214px 1fr 321px;
+    row-gap: 40px;
+    column-gap: 30px;
+  }
+  .features-main {
+    grid-area: main;
+    width: 339px;
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 39px;
+  }
+  .features-main__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .features-main__text {
+    font-size: 16px;
+  }
+  .features-text-wrapper {
+    --flow-space: 34px;
+  }
+  .features-button-wrapper {
+    gap: 37px;
+  }
+  .features__keyboard-top {
+    grid-area: kb-top;
+    background-image: url("../images/tablet/keyboard-top.png");
+    border-radius: 20px 0 0 20px;
+  }
+  .features__keyboard-phone {
+    grid-area: kb-phone;
+    background-image: url("../images/tablet/keyboard-phone.png");
+  }
+  .features__keyboard-glass {
+    grid-area: kb-glass;
+    background-image: url("../images/tablet/keyboard-glass.png");
+  }
+  .features-aside {
+    grid-area: aside;
+    align-items: center;
+    gap: 85px;
+  }
+  .features-aside__text {
+    padding-right: 40px;
+  }
+  .advantages {
+    margin: 142px 58px 0 0;
+    column-gap: 69px;
+    row-gap: 72px;
+  }
+  .advantage {
+    gap: 40px;
+  }
+  footer {
+    margin-top: 142px;
+  }
 }
-
 @media only screen and (width < 768px) {
-    main {
-        flex: 0 1 375px;
-        padding: 23px 24px 50px;
-    }
-
-    .pre-order-button {
-        width: 150px;
-        height: 48px;
-    }
-
-    .features {
-        margin-top: 64px;
-    }
-
-    .advantages {
-        margin-top: 111px;
-        row-gap: 64px;
-    }
-
-    .advantage {
-        align-items: center;
-        text-align: center;
-        gap: 48px;
-    }
-
-    footer {
-        margin-top: 96px;
-    }
+  main {
+    flex: 0 1 375px;
+    padding-block: 23px 50px;
+  }
+  header, .advantages {
+    padding-inline: 24px;
+  }
+  .pre-order-button {
+    width: 150px;
+    height: 48px;
+  }
+  .features {
+    margin-top: 64px;
+  }
+  .advantages {
+    margin-top: 111px;
+    row-gap: 64px;
+  }
+  .advantage {
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+  }
+  footer {
+    margin-top: 96px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

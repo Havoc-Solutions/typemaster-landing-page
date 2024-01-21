@@ -99,7 +99,7 @@ header {
   line-height: 26px;
 }
 
-.grid-image {
+.feature-image {
   border-radius: 20px;
   background-repeat: no-repeat;
 }
@@ -265,11 +265,74 @@ button:hover {
 @media only screen and (768px <= width < 1440px) {
   main {
     flex: 0 1 768px;
-    padding: 40px 40px 43px 39px;
+    //padding: 40px 40px 43px 39px;
+    padding-block: 40px 43px;
+  }
+
+  header, .advantages {
+    padding-inline: 40px;
   }
 
   .features {
     margin-top: 62px;
+    padding-left: 39px;
+    grid-template: "main     main     kb-top"   425px
+                   "kb-phone kb-glass kb-glass" 320px
+                   "aside    aside    aside"    108px /
+                    214px    1fr    321px;
+    row-gap: 40px;
+    column-gap: 30px;
+  }
+
+  .features-main {
+    grid-area: main;
+    width: 339px;
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 39px;
+  }
+
+  .features-main__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .features-main__text {
+    font-size: 16px;
+  }
+
+  .features-text-wrapper {
+    --flow-space: 34px;
+  }
+
+  .features-button-wrapper {
+    gap: 37px;
+  }
+
+  .features__keyboard-top {
+    grid-area: kb-top;
+    background-image: url("../images/tablet/keyboard-top.png");
+    border-radius: 20px 0 0 20px;
+  }
+
+  .features__keyboard-phone {
+    grid-area: kb-phone;
+    background-image: url("../images/tablet/keyboard-phone.png");
+  }
+
+  .features__keyboard-glass {
+    grid-area: kb-glass;
+    background-image: url("../images/tablet/keyboard-glass.png");
+  }
+
+  .features-aside {
+    grid-area: aside;
+    align-items: center;
+    gap: 85px;
+  }
+
+  .features-aside__text {
+    padding-right: 40px;
   }
 
   .advantages {
@@ -291,7 +354,11 @@ button:hover {
 @media only screen and (width < 768px) {
   main {
     flex: 0 1 375px;
-    padding: 23px 24px 50px;
+    padding-block: 23px 50px;
+  }
+
+  header, .advantages {
+    padding-inline: 24px;
   }
 
   .pre-order-button {

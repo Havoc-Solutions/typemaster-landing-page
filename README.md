@@ -4,20 +4,22 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Feon-typemaster-landing-page.netlify.app%2F)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
-This is a solution to [Typemaster Pre-Launch Landing Page](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X). Frontend Mentor challenges help you
+This is a solution
+to [Typemaster Pre-Launch Landing Page](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X).
+Frontend Mentor challenges help you
 improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
-    - [Links](#links)
-    - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Screenshot](#screenshot)
 - [Try it out!](#try-it-out)
-    - [Run with Node.js](#run-with-nodejs)
-    - [Run with Docker](#run-with-docker)
+  - [Run with Node.js](#run-with-nodejs)
+  - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -27,6 +29,8 @@ improve your coding skills by building realistic projects.
 - [My Solution on Frontend Mentor]()
 
 ### Screenshot
+
+![Typemaster-Pre-Launch-Landing-Page](https://github.com/Havoc-Solutions/typemaster-landing-page/assets/15611424/a5353b1c-b9f6-4d45-b654-efa30f715715)
 
 ## Try it out!
 
@@ -59,5 +63,3 @@ docker run -d -p 3000:3000 eonraider/typemaster-landing-page
 
 - Semantic HTML5 markup
 - Cube CSS methodology
-
-### What I learned
