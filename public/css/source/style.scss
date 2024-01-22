@@ -119,6 +119,10 @@ header {
   align-items: center;
 }
 
+.features__button, .header__button {
+  text-transform: uppercase;
+}
+
 .features-main__release {
   font-size: 16px;
   line-height: 26px;
@@ -203,7 +207,7 @@ button:hover {
   .features__keyboard-top {
     grid-area: kb-top;
     background-image: url("../images/desktop/keyboard-top.png");
-    background-position: top right 0;
+    background-position: top right;
   }
 
   .features__keyboard-phone {
@@ -261,11 +265,22 @@ button:hover {
   }
 }
 
+// PORTABLE DEVICES ONLY
+@media only screen and (width < 1440px) {
+  .features-main__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .features-main__text {
+    font-size: 16px;
+  }
+}
+
 // TABLET VERSION
 @media only screen and (768px <= width < 1440px) {
   main {
     flex: 0 1 768px;
-    //padding: 40px 40px 43px 39px;
     padding-block: 40px 43px;
   }
 
@@ -290,15 +305,6 @@ button:hover {
     padding-top: 60px;
     flex-direction: column;
     gap: 39px;
-  }
-
-  .features-main__title {
-    font-size: 48px;
-    line-height: 48px;
-  }
-
-  .features-main__text {
-    font-size: 16px;
   }
 
   .features-text-wrapper {
@@ -357,7 +363,7 @@ button:hover {
     padding-block: 23px 50px;
   }
 
-  header, .advantages {
+  header, .advantages, .features-main, .features-aside {
     padding-inline: 24px;
   }
 
@@ -367,6 +373,59 @@ button:hover {
 
   .features {
     margin-top: 64px;
+    grid-template: "main     main"     286px
+                   "kb-top   kb-top"   395px
+                   "kb-phone kb-glass" 217px
+                   "aside    aside"    311px /
+                   129px     1fr;
+  }
+
+  .features-main {
+    grid-area: main;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .features-text-wrapper {
+    --flow-space: 32px;
+  }
+
+  .features-button-wrapper {
+    gap: 32px;
+  }
+
+  .features__keyboard-top {
+    grid-area: kb-top;
+    background-image: url("../images/mobile/keyboard-top.png");
+    background-position: bottom right;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .features__keyboard-phone, .features__keyboard-glass {
+    background-position: bottom left;
+  }
+
+  .features__keyboard-phone {
+    grid-area: kb-phone;
+    background-image: url("../images/mobile/keyboard-phone.png");
+    border-radius: 0 20px 20px 0;
+  }
+
+  .features__keyboard-glass {
+    grid-area: kb-glass;
+    background-image: url("../images/mobile/keyboard-glass.png");
+  }
+
+  .features-aside {
+    grid-area: aside;
+    flex-direction: column;
+    text-align: center;
+    align-self: end;
+    gap: 24px;
+  }
+
+  .features-aside__title {
+    padding-inline: 36px;
   }
 
   .advantages {
