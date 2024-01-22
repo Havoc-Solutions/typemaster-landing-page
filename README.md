@@ -1,4 +1,4 @@
-# Frontend Mentor - Typemaster Pre-Launch Landing Page solution
+# Frontend Mentor - Typemaster Pre-Launch Landing Page
 
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Havoc-Solutions/typemaster-landing-page?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/Havoc-Solutions/typemaster-landing-page)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Feon-typemaster-landing-page.netlify.app%2F)
@@ -6,8 +6,7 @@
 
 This is a solution
 to [Typemaster Pre-Launch Landing Page](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X).
-Frontend Mentor challenges help you
-improve your coding skills by building realistic projects.
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,14 +18,13 @@ improve your coding skills by building realistic projects.
   - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 
 ## Overview
 
 ### Links
 
 - [Check the Live Site](https://eon-typemaster-landing-page.netlify.app/)
-- [My Solution on Frontend Mentor]()
+- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/html5scss-typemaster-prelaunch-landing-page-p07z6WkRYg)
 
 ### Screenshot
 
